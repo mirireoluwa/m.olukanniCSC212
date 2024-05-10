@@ -92,7 +92,7 @@ int main(int argc, char* argv[]) {
     }
 
     std::vector<SDL_Texture*> backgroundTextures;
-    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer0.png"));
+    /*backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer0.png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer1.png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer2.png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer3.png"));
@@ -102,9 +102,9 @@ int main(int argc, char* argv[]) {
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer7.png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer8.png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer9.png"));
-    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer10.png"));
-    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer11.png"));
-    
+    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer10.png"));*/
+    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/roller.jpg"));
+    backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/hotair.png"));
 
     SDL_Texture* backgroundFloor = loadTexture("./Assets/grassfloor.jpg");
     SDL_Texture* backgroundSky = loadTexture("./Assets/skytoon.jpg");
